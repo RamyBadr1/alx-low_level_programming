@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * Using puts() to print something.
+ * main-Entry Point.
+ * 
+ * Return: Always 0 (SUCCESS)
 */
 
 int main(void) 
