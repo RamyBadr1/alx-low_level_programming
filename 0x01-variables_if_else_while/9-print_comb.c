@@ -14,7 +14,7 @@ int main(void)
 		{
 			putchar(i);
 			printf(", ");
-		} else 
+		} else
 		{
 			putchar(i);
 		}
