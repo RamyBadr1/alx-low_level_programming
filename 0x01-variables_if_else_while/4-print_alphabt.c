@@ -12,11 +12,11 @@ int main(void)
 	{
 		if (chars == 'e' || chars == 'q')
 			continue;
-		
-		putchar(chars); 
+
+		putchar(chars);
 	}
 
 	printf("\n");
-	
+
 	return (0);
 }
