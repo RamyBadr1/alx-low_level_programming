@@ -7,9 +7,12 @@
 */
 int main(void) {
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (int i = 0; i < strlen(alphabet); i++)
+	for (i = 0; i < strlen(alphabet); i++)
 		putchar(alphabet[i]);
+
+	printf("\n");
 
 	return (0);
 }
