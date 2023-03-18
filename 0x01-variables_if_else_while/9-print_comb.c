@@ -9,7 +9,15 @@ int main(void)
 	int i;
 
 	for (i = 48; i <= 57; i++)
-		putchar("%d, ", i);
+	{
+		if (i != 57)
+		{ 
+			putchar(i);
+			printf(", ");
+		} else {
+			putchar(i);
+		}
+	}
 
 	putchar('\n');
 
