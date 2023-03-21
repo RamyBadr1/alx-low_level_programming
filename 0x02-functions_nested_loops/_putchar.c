@@ -8,8 +8,8 @@
 *On error, -1 is returned, and errno is set apprpriately.
 */
 
-int _putchar()
+int _putchar(char c)
 {
-	printf("_putchar");
+	putchar(c);	
 	return(0);
 }
