@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * print_last_digit - calculate the remainder of (num) / 10
