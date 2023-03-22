@@ -1,33 +1,28 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "main.h"
 
+/**
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59
+ */
 void jack_bauer(void)
 {
-	int hours, minuts;
-	
-	for (hours = 0;;hours++)
-	{
-	for (minuts = 0;;minuts++) {
-		if (hours < 10)
-			printf("%d", 0);
-		printf("%d", hours);
-		
-		printf(":");
-			
-		if (minuts < 10)
-			printf("%d", 0);
-		printf("%d\n", minuts);
+	int i, j;
 
-		sleep(60);
-		
-		if (minuts == 59) {
-			minuts = 0;
-		}		
-	}
-		if (hours == 23)
+	i = 0;
+
+	while (i < 24)
+	{
+		j = 0;
+		while (j < 60)
 		{
-			hours = 0;
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j++;
 		}
+		i++;
 	}
 }
