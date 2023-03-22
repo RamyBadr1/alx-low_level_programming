@@ -2,7 +2,7 @@
 
 /**
 * print_last_digit - calculate the remainder of (num) / 10
-* @n: int value to get its last digit
+* @num: int value to get its last digit
 * Return: return the remainder of (num) / 10
 */
 
