@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /*
 * Prints all alphabets 10 times.
