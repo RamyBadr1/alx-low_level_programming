@@ -6,13 +6,14 @@
 * Return: return the remainder of (num) / 10
 */
 
-int print_last_digit(int num) {
+int print_last_digit(int num)
+{
 	int result = num % 10;
 
 	if (result < 0)
 		result = -result;
 
 	_putchar('0' + result);
-	return result;
+	return (result);
 }
 
