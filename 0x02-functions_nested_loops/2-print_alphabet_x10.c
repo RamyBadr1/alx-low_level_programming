@@ -4,7 +4,8 @@
 * Prints all alphabets 10 times.
 */
 
-void print_alphabet_x10(void) {
+void print_alphabet_x10(void)
+{
 	int lines;
 	char letters;
 
@@ -12,5 +13,7 @@ void print_alphabet_x10(void) {
 	{
 		for (letters = 'a'; letters < 'z'; letters++)
 			_putchar(letters);
+		
+		_putchar('\n');
 	}
 }
