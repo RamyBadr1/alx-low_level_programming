@@ -2,21 +2,22 @@
 
 int main(void)
 {
-	int num = 1;
+	long num = 0, num2 = 1, sum;
 	int loops;
 
-	for (loops = 1; loops <= 50; loops++ )
+	for (loops = 1; loops <= 50; loops++)
 	{
-		if (num == 1)
-		{
-			num += num;
-			printf("%d", num);
-			continue;
-		}
+		sum = num + num2;
 
-		num += num - 1;
-		printf("%d, ", num);
+		printf("%lu", sum);
+
+		num = num2;
+		num2 = sum;
+
+		if (loops < 50)
+			printf(", ");
 	}
 
+	printf("\n");
 	return (0);
 }
