@@ -5,11 +5,12 @@ int main(void)
 	int num = 1;
 	int loops;
 
-	for (loops = 1; num <= 50; loops++ )
+	for (loops = 1; loops <= 50; loops++ )
 	{
 		if (num == 1)
 		{
 			num += num;
+			printf(num);
 			continue;
 		}
 
