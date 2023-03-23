@@ -2,9 +2,10 @@
 
 int main(void)
 {
-	int num;
+	int num = 1;
+	int loops;
 
-	for (num = 1; num <= 50; )
+	for (loops = 1; num <= 50; loops++ )
 	{
 		if (num == 1)
 		{
