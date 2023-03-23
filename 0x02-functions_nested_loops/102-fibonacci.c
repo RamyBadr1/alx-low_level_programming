@@ -10,7 +10,7 @@ int main(void)
 		{
 			num += num;
 			continue;
-		{
+		}
 
 		num += num - 1;
 		printf("%d, ", num);
