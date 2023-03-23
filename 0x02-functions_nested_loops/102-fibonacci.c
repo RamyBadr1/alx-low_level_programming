@@ -10,7 +10,7 @@ int main(void)
 		if (num == 1)
 		{
 			num += num;
-			printf(num);
+			printf("%d", num);
 			continue;
 		}
 
