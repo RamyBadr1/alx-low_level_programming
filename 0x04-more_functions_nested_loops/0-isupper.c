@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
 * _isupper - check if the char is an upper letter
-* @c: accepts an int value
+* @n: accepts an int value
 * Returns: if letter is upper return 1, if it's return 0.
 */
 int _isupper(int c)
