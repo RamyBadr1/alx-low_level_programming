@@ -20,6 +20,6 @@ void more_numbers(void)
 			}
 			_putchar(num + '0');
 		}
-		printf('\n');
+		printf("%c",'\n');
 	}
 }
