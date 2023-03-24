@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
 * _isupper - check if the char is an upper letter
 * @c: accepts an int value
