@@ -20,8 +20,9 @@ int main(void)
 			printf("%d", i);
 		else
 			printf("%d", i);
+		
+		printf(" ");
 	}
-	printf(" ");
 
 	printf("\n");
 	return (0);
