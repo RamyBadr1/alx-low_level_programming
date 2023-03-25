@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+* print_square - print a square of hash
+* @size: detemines heigh and width
+*/
 void print_square(int size)
 {
 	if (size <= 0)
@@ -7,15 +11,14 @@ void print_square(int size)
 		_putchar('\n');
 	}
 
-	int i;
+	int i, x;
 
 	for (i = 0; i < size; i++)
 	{
-		_putchar("#");
-		for (i = 0; i < size; i++)
+		for (x = 0; x < size; x++)
 		{
 			_putchar('#');
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
