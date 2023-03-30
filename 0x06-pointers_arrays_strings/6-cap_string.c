@@ -3,9 +3,15 @@
 #include <string.h>
 #include <ctype.h>
 
-char *cap_string(char * str)
+/**
+* cap_string - captilize given string.
+* @str: string to be capitalized.
+* Return: a capitalized string.
+*/
+char *cap_string(char *str)
 {
-	int i;
+	unsigned int i;
+
 	for (i = 0; i < strlen(str); i++)
 	{
 		if (str[i - 1] == ' ' ||
