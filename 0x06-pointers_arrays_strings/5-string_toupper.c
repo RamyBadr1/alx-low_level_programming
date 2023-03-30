@@ -3,8 +3,8 @@
 #include <ctype.h>
 #include "main.h"
 
-/*
-* *string_toupper - change string chars to uppercase
+/**
+* string_toupper - change string chars to uppercase.
 * @str: a string to change.
 * Return: an uppercase string.
 */
@@ -18,6 +18,6 @@ char *string_toupper(char *str)
 		str[i] = toupper(str[i]);
 		i++;
 	}
-	
+
 	return (str);
 }
