@@ -4,9 +4,9 @@
 * main - prints the name of program
 * @argc: number of args
 * @argv: args array
-* Return: Always (0) 
+* Return: Always (0)
 */
-int main(int argc, char *argc)
+int main(int argc, char *argv)
 {
 	printf("%s\n", *argv);
 	return (0);
