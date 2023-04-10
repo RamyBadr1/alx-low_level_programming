@@ -5,12 +5,11 @@
 * main - multiply integer args
 * @argc: number of argc
 * @argv: array of args
-* Return: (argc == 0)? 1 : 0
+* Return: 0 (Success), 1 (Error)
 */
 int main(int argc, char *argv[])
 {
-	int i;
-	int result = 1;
+	int x, y;
 
 	if (argc == 1)
 	{
@@ -18,11 +17,10 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	for (i = 1; i < argc; i++)
-		result *= atoi(*(argv + i));
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
 
-	printf("%d\n", result);
+	printf("%d\n", x * y);
 
 	return (0);
-
 }
