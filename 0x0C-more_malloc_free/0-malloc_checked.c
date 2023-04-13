@@ -4,11 +4,11 @@
 /**
 * malloc_checked - Return a pointer
 * @b: int
-* Return: void
+* Return: address or void
 */
 void *malloc_checked(unsigned int b)
 {
-	void *a = malloc(sizeof(b));
+	void *a = malloc(b);
 
 	if (a == NULL)
 		exit(98);
