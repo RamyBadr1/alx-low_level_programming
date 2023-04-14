@@ -27,9 +27,14 @@ char *_memset(char *s, char b, unsigned int n)
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *p = malloc(nmemb * size);
+	char *p;
 
-	if (nmemb == 0 || size == 0 || p == NULL)
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+
+	p = malloc(nmemb * size);
+
+	if (p == NULL)
 		return (NULL);
 
 	_memset(p, 0, nmemb * size);
