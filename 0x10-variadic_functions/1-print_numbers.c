@@ -5,6 +5,7 @@
 * print_numbers - print nums
 * @separator: Separator
 * @n: num of args
+* ...: args
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
