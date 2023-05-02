@@ -2,12 +2,12 @@
 
 /**
  * print_listint - prints all the elements of a list
- * @h: linked list of type listint_t to print
+ * @h: a pointr to linked list
  * Return: number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t number;
+	size_t number = 0;
 
 	while (h != NULL)
 	{
