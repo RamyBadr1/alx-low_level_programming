@@ -2,14 +2,11 @@
 #include "main.h"
 
 /**
-*_putchar - print c to stdout.
-*
-*Return on success 1.
-*On error, -1 is returned, and errno is set apprpriately.
+*_putchar - print c.
+*Return: 1 | 0 
 */
 
 int _putchar(char c)
 {
-	putchar(c);	
-	return(0);
+	return (write(1, &c, 1));
 }
