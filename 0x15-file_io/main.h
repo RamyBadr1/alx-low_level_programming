@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#include <stddef.h>
 
 /* Prototypes */
 int _putchar(char c);
