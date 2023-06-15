@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - function to print all the least nodes and return number of nodes
+ * print_dlistint - function to print all the least nodes, return number nodes
  * @h: pointer to head
  * Return: number of nodes
  */
