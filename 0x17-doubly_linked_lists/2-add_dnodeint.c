@@ -2,7 +2,7 @@
 
 /**
  * add_dnodeint - add node to beggining
- * @head: double pointer to head 
+ * @head: double pointer to head
  * @n: data integer
  * Return: new pointer
  */
