@@ -8,7 +8,7 @@
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *last_dir;
-	dlistint_t new = malloc(sizeof(dlistint_t));
+	dlistint_t *new = malloc(sizeof(dlistint_t));
 
 	if (!new)
 		return (NULL);
