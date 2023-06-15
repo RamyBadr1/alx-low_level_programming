@@ -23,14 +23,14 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	for (a = 0; oldNode && a < idx; a++)
 		oldNode = oldNode->next;
 
-	if (oldNode && a == idx)
+	if (!oldNode && a == idx)
 		return (add_dnodeint_end(h, n));
 
-	else if (!oldNode)
+	else if (oldNode)
 	{
 		newNode = malloc(sizeof(dlistint_t));
 
-		if (newNode)
+		if (!newNode)
 			return (NULL);
 		newNode->n = n;
 		oldNode->prev->next = newNode;
